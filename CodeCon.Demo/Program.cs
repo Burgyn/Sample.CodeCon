@@ -11,7 +11,7 @@ namespace CodeCon.Demo
         }
     }
 
-    [ToString]
+    //[ToString]
     public partial class Address
     {
         public string City { get; set; }
@@ -21,5 +21,7 @@ namespace CodeCon.Demo
         public string ZipCode { get; set; }
 
         public string Country { get; set; }
+
+        public override string ToString() => $"City = {City}, Street = {Street}, ZipCode = {ZipCode}, Country = {Country}";
     }
 }
