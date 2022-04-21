@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeCon\CodeCon.csproj"
-                      OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
+    <ProjectReference Include="..\CodeCon\CodeCon.csproj"/>
   </ItemGroup>
 
 </Project>
