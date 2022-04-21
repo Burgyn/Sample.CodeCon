@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CodeCon": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\CodeCon.Demo\\CodeCon.Demo.csproj"
+    }
+  }
+}
